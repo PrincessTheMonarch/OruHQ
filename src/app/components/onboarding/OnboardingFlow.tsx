@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { useNavigate } from "react-router";
 import { User, Briefcase, Zap, ChevronDown, Mail, ArrowLeft } from "lucide-react";
 import { useApp } from "../../context/AppContext";
-import { supabase } from "@/lib/supabase"; // ← ADD THIS
+import { supabase } from "../../lib/supabase";
 
 type Step = "welcome" | "confirm-email" | "account-type" | "currency" | "loading";
 
