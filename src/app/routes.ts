@@ -12,10 +12,12 @@ import CreateInvoiceFlow from "./components/dashboard/CreateInvoiceFlow";
 import PaymentsPage from "./components/dashboard/PaymentsPage";
 import CreatePaymentFlow from "./components/dashboard/CreatePaymentFlow";
 import SettingsPage from "./components/dashboard/SettingsPage";
+import AuthCallback from "./components/AuthCallback";
 
 export const router = createBrowserRouter([
   { index: true, Component: OruHQLanding },
   { path: "onboarding", Component: OnboardingFlow },
+  { path: "auth/callback", Component: AuthCallback },
   {
     path: "dashboard",
     Component: DashboardLayout,
