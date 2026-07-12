@@ -1,0 +1,384 @@
+Here’s a **single, clean, production-ready Figma Make prompt** that includes your **updated PRD + full dashboard redesign direction**. It also instructs Figma Make to **refactor your existing dashboard screens instead of rebuilding blindly**.
+
+---
+
+# 🧠 Figma Make Prompt — OruHQ (PRD + Dashboard Redesign)
+
+Redesign and improve the existing **OruHQ dashboard screens inside this Figma file**, aligning them with the updated product direction below.
+
+The goal is to transform the current dashboard into a **clean, Notion-inspired freelancer operating system** that prioritizes:
+
+* Simplicity
+* List-based structure (NOT Kanban)
+* Financial clarity
+* Project visibility
+* Reduced cognitive load
+
+Do NOT redesign the landing page. Only focus on improving and restructuring the dashboard screens.
+
+---
+
+# 📄 PRODUCT PRD (UPDATED SYSTEM)
+
+## Product Name
+
+OruHQ
+
+## Product Type
+
+Freelancer Operating System
+
+## Core Purpose
+
+OruHQ helps freelancers manage:
+
+* Projects
+* Tasks (simple to-do lists, not Kanban)
+* Invoices
+* Payments
+* Earnings insights
+
+Everything is connected but flexible — users can start from Projects, Invoices, or Payments and link them together.
+
+---
+
+# 🧠 CORE PRODUCT RULES (VERY IMPORTANT)
+
+1. No Kanban boards anywhere in the system
+2. Tasks must be simple checkbox to-do lists (Notion-style)
+3. Projects are the central entity
+4. Financial clarity is more important than workflow complexity
+5. Everything must be readable in under 5 seconds
+6. Lists > Cards > Charts (in priority order)
+
+---
+
+# 🧩 CORE MODULES
+
+## 1. Projects (Core System)
+
+Users can:
+
+* Create projects
+* Add project name
+* Add optional client name
+* Set deadline
+* Set budget
+
+Each project contains:
+
+* Simple task list (checkbox system only)
+* Progress indicator (based on completed tasks)
+* Linked invoices (optional)
+* Linked payments (optional)
+
+---
+
+## 2. Tasks (UPDATED SYSTEM)
+
+Replace any Kanban or board UI with:
+
+### Task Structure:
+
+* Task title
+* Checkbox (done / not done)
+* Optional due date
+* Optional notes
+
+### Behavior:
+
+* Tasks are grouped under projects
+* No drag and drop
+* No status columns
+* Completion = binary system
+* Progress is automatically calculated
+
+---
+
+## 3. Invoices
+
+Users can:
+
+* Create invoices
+* View all invoices
+* Track status:
+
+  * Draft
+  * Sent
+  * Paid
+  * Overdue
+
+Invoices can be:
+
+* Standalone
+* Linked to projects (optional)
+
+Users can also:
+
+* Create a project from an invoice
+
+---
+
+## 4. Payments
+
+Users can:
+
+* Create payments manually
+* Track payment status:
+
+  * Pending
+  * Completed
+
+Payments can be:
+
+* Standalone
+* Linked to invoices
+* Linked to projects
+* Linked to tasks
+
+---
+
+## 5. Settings (Invoice Configuration)
+
+Users must be able to configure invoice defaults:
+
+* Business name
+* Business email
+* Address
+* Logo
+* Currency
+* Invoice prefix (e.g. ORU-001)
+* Payment terms (7/14/30 days)
+* Default footer note
+
+All invoices should auto-fill from settings.
+
+---
+
+# 📊 DASHBOARD REDESIGN REQUIREMENTS
+
+Redesign the existing dashboard into a **clean, structured, Notion-inspired control center**.
+
+---
+
+## 🧱 Layout System
+
+* 12-column grid
+* Card-based layout
+* No long scrolling single-column layout
+* Max 2–3 visual layers per screen
+* Everything must feel scannable
+
+---
+
+# 🖥️ FINAL DASHBOARD STRUCTURE (NEW UI ORDER)
+
+---
+
+## 1. HEADER (Full Width)
+
+Include:
+
+* OruHQ Dashboard title
+* KPI summary:
+
+  * Active Projects
+  * Monthly Revenue
+  * Outstanding Payments
+  * At-Risk Projects
+
+Primary actions:
+
+* * New Project
+* * New Invoice
+* * New Payment
+
+---
+
+## 2. ACTIVE PROJECTS (HIGHEST PRIORITY SECTION)
+
+This section MUST appear at the top of the dashboard (before charts).
+
+Display as a SIMPLE LIST (not cards grid):
+
+Each project shows:
+
+* Project name
+* Progress bar (based on task completion)
+* Deadline
+* Task completion count (e.g. 7/10)
+
+Keep it clean and scannable.
+
+---
+
+## 3. MONTHLY EARNINGS CHART
+
+Add a minimal line chart showing:
+
+* Monthly revenue trend
+* Clean, minimal, no clutter
+
+This comes AFTER Active Projects.
+
+---
+
+## 4. AT-RISK PROJECTS (LIST ONLY)
+
+Replace any alert boxes or banners.
+
+Use a simple list format:
+
+Each item includes:
+
+* Project name
+* Reason for risk (overdue task, unpaid invoice, missed deadline)
+* Deadline
+* Subtle status indicator
+
+No red-heavy UI. Keep it minimal.
+
+---
+
+## 5. TASK OVERVIEW (NOTION-STYLE LIST)
+
+Replace any Kanban or complex task UI.
+
+Structure:
+
+Today:
+
+* Checkbox tasks
+
+Upcoming:
+
+* Checkbox tasks
+
+Completed:
+
+* Checked items
+
+Each task includes:
+
+* Title
+* Optional due date
+
+No status columns. No drag and drop.
+
+---
+
+## 6. INVOICES SNAPSHOT
+
+Simple list:
+
+* Invoice ID
+* Amount
+* Status (Draft / Sent / Paid / Overdue)
+
+---
+
+## 7. PAYMENTS SNAPSHOT
+
+Simple list:
+
+* Client or source name
+* Amount
+* Status (Pending / Completed)
+
+---
+
+# 🎨 DESIGN SYSTEM (MUST FOLLOW)
+
+## Typeface
+
+Archivo (entire system)
+
+---
+
+## Color Palette
+
+Background:
+#F6F2EC
+
+Primary:
+#8D0000
+
+Accent Colors:
+#DAE8CC
+#CCE8E8
+#DACCE8
+
+---
+
+## UI STYLE RULES
+
+* Notion-inspired soft background (#F6F2EC)
+* White cards with soft borders
+* Minimal shadows
+* Rounded corners (12–16px)
+* Strong typography hierarchy
+* Lots of whitespace
+* No gradients
+* No glassmorphism
+* No neon styling
+
+---
+
+## Visual Hierarchy Rules
+
+1. Active Projects (most important)
+2. Earnings Chart
+3. At-risk Projects
+4. Tasks
+5. Invoices
+6. Payments
+
+---
+
+## Component Behavior Rules
+
+* Lists over cards wherever possible
+* Charts only for insights (not decoration)
+* Tasks must always be checklists
+* Projects must always show progress
+* Financial data must be highly scannable
+
+---
+
+# 🧠 PRODUCT INTENT
+
+The redesigned dashboard should feel like:
+
+* Notion (structure + simplicity)
+* Linear (clean execution clarity)
+* Stripe (financial awareness)
+
+But optimized for freelancers managing both:
+
+> work + money in one place
+
+---
+
+# 🚨 IMPORTANT INSTRUCTION
+
+Do NOT create a new design system from scratch.
+
+Instead:
+
+* Refactor existing dashboard screens in the Figma file
+* Improve structure, spacing, hierarchy, and layout
+* Replace Kanban/task boards with list-based system
+* Reorganize dashboard into the new hierarchy above
+
+---
+
+# END GOAL
+
+A clean, modern freelancer operating system dashboard that allows users to instantly understand:
+
+* What they are working on
+* What is at risk
+* What they have earned
+* What needs attention today
+
+Without complexity or visual overload.

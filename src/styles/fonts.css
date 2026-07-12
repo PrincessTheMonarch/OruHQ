@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,400;0,500;0,600;0,700;0,900;1,400&family=Archivo+Black&family=Audiowide&family=Inter:wght@400;500;600;700&display=swap');
+
+@theme {
+  --font-archivo: 'Archivo', sans-serif;
+  --font-archivo-black: 'Archivo Black', sans-serif;
+  --font-inter: 'Inter', sans-serif;
+  --font-archivo: 'Archivo', sans-serif;
+  --font-archivo: 'Archivo', sans-serif;
+}
